@@ -1,0 +1,5 @@
+.coverage
+.tox
+Pipfile
+artifacts/*
+mock_ez.egg-info/*
