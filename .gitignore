@@ -3,3 +3,4 @@
 Pipfile
 artifacts/*
 mock_ez.egg-info/*
+tests/.mypy*
