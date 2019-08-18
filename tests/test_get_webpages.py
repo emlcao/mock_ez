@@ -22,7 +22,10 @@ class TestGetWebPage(unittest.TestCase):
         cls.mock_rg.return_value.status_code = 200
 
     def test_fetch_a_status_code(self):
-        pass
+        from mock_ez import get_webpage
+        res = get_webpage.GetWebPage.fetch_a_status_code('https://dummywebsite')
+        exp_res = 200
+        self.assertEqual(res, exp_res)
 
 
 if __name__ == '__main__':
