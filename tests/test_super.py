@@ -3,7 +3,7 @@ import unittest
 import mock
 
 class TestSuper(unittest.TestCase):
-    @clasmethod
+    @classmethod
     def setUp(cls):
         from mock_ez.get_square import Rectangle, Square, Cube
 
